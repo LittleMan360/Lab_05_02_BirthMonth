@@ -12,56 +12,12 @@ public class BirthMonth
         //cant do input so simulate input here
         birthMonth = 2;
 
-        //if/elseif statement to figure out month or output error i added month name and number
+        //if else statement to figure out month or output error number
         //Also gives a warning on code cause some numbers are always false since input is simulated
-        if (birthMonth == 1)
+        if (birthMonth >=1 && 12 >=birthMonth)
         {
-            //output if the Month is the correct month if not continues on to next line
-            System.out.println("Your birth month is January (1)");
-        }
-        else if (birthMonth == 2)
-        {
-            System.out.println("Your birth month is February (2)");
-        }
-        else if (birthMonth == 3)
-        {
-            System.out.println("Your birth month is March (3)");
-        }
-        else if (birthMonth == 4)
-        {
-            System.out.println("Your birth month is April (4)");
-        }
-        else if (birthMonth == 5)
-        {
-            System.out.println("Your birth month is May (5)");
-        }
-        else if (birthMonth == 6)
-        {
-            System.out.println("Your birth month is June (6)");
-        }
-        else if (birthMonth == 7)
-        {
-            System.out.println("Your birth month is July (7)");
-        }
-        else if (birthMonth == 8)
-        {
-            System.out.println("Your birth month is August (8)");
-        }
-        else if (birthMonth == 9)
-        {
-            System.out.println("Your birth month is September (9)");
-        }
-        else if (birthMonth == 10)
-        {
-            System.out.println("Your birth month is October (10)");
-        }
-        else if (birthMonth == 11)
-        {
-            System.out.println("Your birth month is November (11)");
-        }
-        else if (birthMonth == 12)
-        {
-            System.out.println("Your birth month is December (12)");
+            //output if the Month is the correct month if not
+            System.out.println("Your birth month is " + birthMonth);
         }
         else
         {
