@@ -13,6 +13,7 @@ public class BirthMonth
         birthMonth = 2;
 
         //if/elseif statement to figure out month or output error i added month name and number
+        //Also gives a warning on code cause some numbers are always false since input is simulated
         if (birthMonth == 1)
         {
             //output if the Month is the correct month if not continues on to next line
