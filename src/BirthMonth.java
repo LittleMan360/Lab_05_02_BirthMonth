@@ -3,6 +3,22 @@ public class BirthMonth
     public static void main(String[] args)
     {
 
+        //class BirthMonth
+        //	main()
+        //	    //Declare variables
+        //	    num birthMonth
+        //	    //Prompt and input
+        //	    output “Enter your birth month in numbers ”
+        //	    input birthMonth
+        //	    //Process
+        //	    If birthMonth < 1 OR > 12 then
+        //		output “(“You entered an incorrect month value: N”
+        //	    endif
+        //	    //Output
+        //	    output “Your birth month is: ” + birthMonth
+        //	return
+        //end class
+
         //Declared variables
         int birthMonth;
 
