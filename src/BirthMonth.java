@@ -3,15 +3,19 @@ public class BirthMonth
     public static void main(String[] args)
     {
 
+        //Declared variables
         int birthMonth;
 
+        //Simulating input since we cant yet but added my own input
         System.out.println("Enter birth month in numbers 1-12 ");
-        //cant do input so simulate input here
 
+        //cant do input so simulate input here
         birthMonth = 2;
 
+        //if/elseif statement to figure out month or output error i added month name and number
         if (birthMonth == 1)
         {
+            //output if the Month is the correct month if not continues on to next line
             System.out.println("Your birth month is January (1)");
         }
         else if (birthMonth == 2)
@@ -60,6 +64,7 @@ public class BirthMonth
         }
         else
         {
+            //output error if numbers 1-12 isn't added
             System.out.println("You entered an incorrect month value: " + birthMonth + " Enter number between 1-12");
         }
 
